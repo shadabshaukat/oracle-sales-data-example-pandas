@@ -174,3 +174,28 @@ ORDER BY
     s.PRODUCT_ID,
     EXTRACT(YEAR FROM s.SALE_DATE),
     EXTRACT(MONTH FROM s.SALE_DATE);
+    
+ 
+ -- Create Materialized View of Query for Pre-Aggregating the Results --
+ CREATE MATERIALIZED VIEW sales_by_product AS
+SELECT
+  p.product_id,
+  p.product_name,
+  EXTRACT(YEAR FROM s.sale_date) AS year,
+  EXTRACT(MONTH FROM s.sale_date) AS month,
+  SUM(s.quantity) AS total_quantity,
+  SUM(s.quantity * s.price) AS total_revenue
+FROM
+  sales s
+  JOIN products p ON s.product_id = p.product_id
+GROUP BY
+  p.product_id,
+  p.product_name,
+  EXTRACT(YEAR FROM s.sale_date),
+  EXTRACT(MONTH FROM s.sale_date);
+
+ 
+ 
+-- To refresh the materialized view, you can run the following command --
+
+EXEC DBMS_MVIEW.REFRESH('sales_by_product', 'F');
