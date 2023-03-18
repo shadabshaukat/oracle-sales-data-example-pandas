@@ -62,7 +62,7 @@ INSERT INTO products (PRODUCT_ID, PRODUCT_NAME, CATEGORY, BRAND) VALUES (9, 'Hea
 INSERT INTO products (PRODUCT_ID, PRODUCT_NAME, CATEGORY, BRAND) VALUES (10, 'Coffee Maker', 'Kitchen Appliances', 'Keurig');
 INSERT INTO products (PRODUCT_ID, PRODUCT_NAME, CATEGORY, BRAND) VALUES (11, 'Socks', 'Clothing', 'Hanes');
 INSERT INTO products (PRODUCT_ID, PRODUCT_NAME, CATEGORY, BRAND) VALUES (12, 'Running Shoes', 'Footwear', 'Nike');
-INSERT INTO products (PRODUCT_ID, PRODUCT_NAME, CATEGORY, BRAND) VALUES (13, 'Lawn Mower', 'Outdoor', 'Black & Decker');
+INSERT INTO products (PRODUCT_ID, PRODUCT_NAME, CATEGORY, BRAND) VALUES (13, 'Lawn Mower', 'Outdoor', 'Black and Decker');
 INSERT INTO products (PRODUCT_ID, PRODUCT_NAME, CATEGORY, BRAND) VALUES (14, 'Grill', 'Outdoor', 'Weber');
 INSERT INTO products (PRODUCT_ID, PRODUCT_NAME, CATEGORY, BRAND) VALUES (15, 'Jeans', 'Clothing', 'Levis');
 INSERT INTO products (PRODUCT_ID, PRODUCT_NAME, CATEGORY, BRAND) VALUES (16, 'Vacuum Cleaner', 'Home Appliances', 'Dyson');
@@ -92,7 +92,7 @@ INSERT INTO products (PRODUCT_ID, PRODUCT_NAME, CATEGORY, BRAND) VALUES (39, 'De
 INSERT INTO products (PRODUCT_ID, PRODUCT_NAME, CATEGORY, BRAND) VALUES (40, 'Hair Dryer', 'Personal Care', 'Conair');
 INSERT INTO products (PRODUCT_ID, PRODUCT_NAME, CATEGORY, BRAND) VALUES (41, 'Gaming Console', 'Electronics', 'Sony');
 INSERT INTO products (PRODUCT_ID, PRODUCT_NAME, CATEGORY, BRAND) VALUES (42, 'Coffee Maker', 'Kitchen Appliances', 'Keurig');
-INSERT INTO products (PRODUCT_ID, PRODUCT_NAME, CATEGORY, BRAND) VALUES (43, 'Toaster', 'Kitchen Appliances', 'Black & Decker');
+INSERT INTO products (PRODUCT_ID, PRODUCT_NAME, CATEGORY, BRAND) VALUES (43, 'Toaster', 'Kitchen Appliances', 'Black and Decker');
 INSERT INTO products (PRODUCT_ID, PRODUCT_NAME, CATEGORY, BRAND) VALUES (44, 'Microwave', 'Kitchen Appliances', 'Samsung');
 INSERT INTO products (PRODUCT_ID, PRODUCT_NAME, CATEGORY, BRAND) VALUES (45, 'Dishwasher', 'Kitchen Appliances', 'Bosch');
 INSERT INTO products (PRODUCT_ID, PRODUCT_NAME, CATEGORY, BRAND) VALUES (46, 'Washing Machine', 'Home Appliances', 'LG');
