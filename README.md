@@ -1,1 +1,1 @@
-# oracle-sales-data-load
+# oracle-sales-data-generate
