@@ -1,4 +1,4 @@
-# Oracle Sales Data Example
+# Oracle Sales Data Example Pandas
 
 In data warehousing, there are two main types of tables: dimension tables and fact tables. This is a simple example of a facts and dimension tables in an Oracle Datawarehouse. 
 
