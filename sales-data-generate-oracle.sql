@@ -64,7 +64,7 @@ INSERT INTO products (PRODUCT_ID, PRODUCT_NAME, CATEGORY, BRAND) VALUES (11, 'So
 INSERT INTO products (PRODUCT_ID, PRODUCT_NAME, CATEGORY, BRAND) VALUES (12, 'Running Shoes', 'Footwear', 'Nike');
 INSERT INTO products (PRODUCT_ID, PRODUCT_NAME, CATEGORY, BRAND) VALUES (13, 'Lawn Mower', 'Outdoor', 'Black & Decker');
 INSERT INTO products (PRODUCT_ID, PRODUCT_NAME, CATEGORY, BRAND) VALUES (14, 'Grill', 'Outdoor', 'Weber');
-INSERT INTO products (PRODUCT_ID, PRODUCT_NAME, CATEGORY, BRAND) VALUES (15, 'Jeans', 'Clothing', 'Levi's');
+INSERT INTO products (PRODUCT_ID, PRODUCT_NAME, CATEGORY, BRAND) VALUES (15, 'Jeans', 'Clothing', 'Levis');
 INSERT INTO products (PRODUCT_ID, PRODUCT_NAME, CATEGORY, BRAND) VALUES (16, 'Vacuum Cleaner', 'Home Appliances', 'Dyson');
 INSERT INTO products (PRODUCT_ID, PRODUCT_NAME, CATEGORY, BRAND) VALUES (17, 'Cookware Set', 'Kitchen Appliances', 'T-fal');
 INSERT INTO products (PRODUCT_ID, PRODUCT_NAME, CATEGORY, BRAND) VALUES (18, 'Electric Toothbrush', 'Personal Care', 'Philips');
@@ -151,6 +151,7 @@ INSERT INTO products (PRODUCT_ID, PRODUCT_NAME, CATEGORY, BRAND) VALUES (98, 'Fr
 INSERT INTO products (PRODUCT_ID, PRODUCT_NAME, CATEGORY, BRAND) VALUES (99, 'Frozen Waffles', 'Frozen Foods', 'Eggo');
 INSERT INTO products (PRODUCT_ID, PRODUCT_NAME, CATEGORY, BRAND) VALUES (100, 'Frozen French Fries', 'Frozen Foods', 'Ore-Ida');
 commit;
+
 
 -- Join the sales and products tables on the PRODUCT_ID column and calculates the total quantity and revenue for each product per month --
 SELECT /*+ PARALLEL(sales, 4) */
